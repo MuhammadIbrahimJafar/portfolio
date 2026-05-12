@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ibrahim Jafar | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyberDark: '#030712',
+                        cyberCard: '#0f172a',
+                        cyberBorder: '#1e293b',
+                        accentViolet: '#a855f7',
+                        accentCyan: '#06b6d4',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glowing-border:hover {
+            border-color: rgba(168, 85, 247, 0.4);
+            box-shadow: 0 0 20px rgba(168, 85, 247, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-cyberDark text-slate-400 font-sans antialiased selection:bg-accentViolet selection:text-white">
+
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[400px] bg-[radial-gradient(circle_at_top,rgba(168,85,247,0.12),transparent_60%)] pointer-events-none"></div>
+
+    <nav class="fixed top-0 left-0 w-full z-50 bg-cyberDark/70 backdrop-blur-xl border-b border-cyberBorder/60">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#hero" class="text-base font-bold tracking-widest text-white uppercase group">
+                MIJ<span class="text-accentViolet group-hover:animate-ping inline-block ml-0.5">.</span>
+            </a>
+            <div class="hidden md:flex space-x-8 text-xs uppercase tracking-widest font-medium">
+                <a href="#about" class="text-slate-400 hover:text-white transition">About</a>
+                <a href="#experience" class="text-slate-400 hover:text-white transition">Experience</a>
+                <a href="#projects" class="text-slate-400 hover:text-white transition">Projects</a>
+                <a href="#skills" class="text-slate-400 hover:text-white transition">Skills</a>
+                <a href="#education" class="text-slate-400 hover:text-white transition">Education</a>
+            </div>
+            <a href="resume.pdf" target="_blank" class="px-4 py-1.5 border border-accentViolet/50 text-accentViolet hover:bg-accentViolet hover:text-white rounded text-xs uppercase tracking-wider font-semibold transition duration-300">
+                Download CV
+            </a>
+        </div>
+    </nav>
+
+    <section id="hero" class="min-h-screen flex items-center justify-center pt-24 relative">
+        <div class="max-w-4xl mx-auto px-4 text-center z-10">
+            <div class="inline-flex items-center gap-2 py-1 px-3 border border-cyberBorder bg-slate-900/40 backdrop-blur-md rounded-full text-xs font-mono text-accentViolet mb-6">
+                <span class="w-2 h-2 rounded-full bg-accentViolet animate-pulse"></span> Identity Security & Pre-Sales Engineering
+            </div>
+            <h1 class="text-4xl sm:text-6xl font-black text-white mb-6 tracking-tight uppercase">
+                Muhammad Ibrahim Jafar
+            </h1>
+            <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+                BSc in Computer Science (Cybersecurity) & Postgraduate Diploma in IT (Business). Specializing in identity ecosystems, structural access control architectures, and technical business alignment.
+            </p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/m-i-j" target="_blank" class="text-slate-500 hover:text-white text-lg transition duration-200"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.github.com/MuhammadibrahimJafar" target="_blank" class="text-slate-500 hover:text-white text-lg transition duration-200"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:mammoos@gmail.com" class="text-slate-500 hover:text-white text-lg transition duration-200"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-28 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-16">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <h2 class="text-xs font-bold tracking-widest text-slate-600 uppercase border-l border-accentViolet/40 pl-4">01 // Profile Summary</h2>
+            </div>
+            <div class="md:col-span-2 space-y-6 text-slate-400 text-sm sm:text-base font-light leading-relaxed">
+                <p>
+                    I am an Abu Dhabi-based professional combining a deep technical background in Computer Science with strategic corporate IT management frameworks. My academic focus in cybersecurity provided analytical models for multi-layer data protection, which I amplify through my postgraduate training in business operations, leadership, and scalable data systems.
+                </p>
+                <p>
+                    Currently, my efforts are centered around the enterprise Identity Security domain. I am cultivating functional knowledge across market-leading access ecosystems to map complex authentication layers, policy parameters, and directory rules back to scalable corporate safety targets.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 text-xs font-mono">
+                    <div class="p-4 border border-cyberBorder bg-slate-900/20 rounded-lg">
+                        <span class="text-white block mb-1">HQ Core Location:</span> Abu Dhabi, United Arab Emirates
+                    </div>
+                    <div class="p-4 border border-cyberBorder bg-slate-900/20 rounded-lg">
+                        <span class="text-white block mb-1">Target Sectors:</span> Identity & Access Management (IAM), Pre-Sales Alignment, Security Analysis
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-28 border-t border-cyberBorder/60 bg-slate-950/20 scroll-mt-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <h2 class="text-xs font-bold tracking-widest text-slate-600 uppercase border-l border-accentViolet/40 pl-4">02 // Enterprise Role</h2>
+                </div>
+                <div class="md:col-span-2">
+                    <div class="relative pl-8 border-l border-cyberBorder">
+                        <div class="absolute -left-[4.5px] top-1.5 w-2 h-2 rounded-full bg-accentViolet ring-4 ring-accentViolet/10"></div>
+                        <div class="flex items-center justify-between gap-4 flex-wrap mb-1">
+                            <h3 class="text-lg font-bold text-white tracking-tight">Pre-Sales / Technical Intern (Identity Security)</h3>
+                            <span class="text-[10px] font-mono font-semibold tracking-wider text-accentViolet bg-accentViolet/10 px-2 py-0.5 rounded uppercase">Joined May 2026</span>
+                        </div>
+                        <h4 class="text-xs text-slate-500 font-mono uppercase mb-4">Gulf IT Network Distribution &bull; Dubai, UAE</h4>
+                        <p class="text-slate-400 text-sm font-light leading-relaxed mb-4">
+                            Onboarded to align with technical pre-sales mechanics and structural engineering concepts in enterprise Identity Infrastructure. Actively developing introductory exposure, architectural comprehension, and design use-cases mapping to leading industry vendor frameworks:
+                        </p>
+                        <ul class="space-y-2 text-xs font-mono text-slate-400 border-t border-cyberBorder/40 pt-4">
+                            <li><span class="text-white font-semibold">&bull; CyberArk:</span> Developing conceptual knowledge in Privileged Access Management (PAM) controls and vaulting security profiles.</li>
+                            <li><span class="text-white font-semibold">&bull; Ping Identity:</span> Exploring Single Sign-On (SSO) federation matrices, session tokens, and adaptive access rules.</li>
+                            <li><span class="text-white font-semibold">&bull; SailPoint:</span> Understanding Identity Governance & Administration (IGA), role engineering, and provisioning workflows.</li>
+                            <li><span class="text-white font-semibold">&bull; Silverfort & Pathlock:</span> Reviewing Active Directory identity attack mitigations, continuous risk analysis, and deep cross-application access orchestration.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-28 border-t border-cyberBorder/60 scroll-mt-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <h2 class="text-xs font-bold tracking-widest text-slate-600 uppercase border-l border-accentViolet/40 pl-4">03 // Professional Certifications</h2>
+                </div>
+                <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="p-4 border border-cyberBorder bg-cyberCard/40 rounded-xl flex items-start gap-3">
+                        <div class="text-accentViolet mt-0.5"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <h4 class="text-sm font-bold text-white">Google Cybersecurity Professional</h4>
+                            <p class="text-xs text-slate-500 font-mono mt-0.5">Google | April 2026</p>
+                        </div>
+                    </div>
+                    <div class="p-4 border border-cyberBorder bg-cyberCard/40 rounded-xl flex items-start gap-3">
+                        <div class="text-accentViolet mt-0.5"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <h4 class="text-sm font-bold text-white">Data Analysis using Excel</h4>
+                            <p class="text-xs text-slate-500 font-mono mt-0.5">Coursera | April 2026</p>
+                        </div>
+                    </div>
+                    <div class="p-4 border border-cyberBorder bg-cyberCard/40 rounded-xl flex items-start gap-3">
+                        <div class="text-accentViolet mt-0.5"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <h4 class="text-sm font-bold text-white">CS50's Introduction to Cybersecurity</h4>
+                            <p class="text-xs text-slate-500 font-mono mt-0.5">Harvard University (HarvardX) | January 2026</p>
+                        </div>
+                    </div>
+                    <div class="p-4 border border-cyberBorder bg-cyberCard/40 rounded-xl flex items-start gap-3">
+                        <div class="text-accentViolet mt-0.5"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <h4 class="text-sm font-bold text-white">CS50's Introduction to AI with Python</h4>
+                            <p class="text-xs text-slate-500 font-mono mt-0.5">Harvard University (HarvardX) | September 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-28 border-t border-cyberBorder/60 bg-slate-950/20 scroll-mt-16 relative">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-xs font-bold tracking-widest text-slate-600 uppercase mb-16 border-l border-accentViolet/40 pl-4">04 // Technical Operations & Prototypes</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 items-stretch">
+                
+                <div class="flex flex-col h-full bg-cyberCard/30 border border-cyberBorder p-5 rounded-xl transition duration-300 glowing-border">
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="p-2 border border-accentViolet/20 bg-accentViolet/5 rounded-lg text-accentViolet text-xs"><i class="fa-solid fa-user-shield"></i></div>
+                            <span class="text-[9px] font-mono font-semibold text-accentViolet border border-accentViolet/20 px-1.5 py-0.5 rounded uppercase tracking-wider">Identity Security</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2 tracking-tight">SentriX - Authentication Monitoring</h3>
+                        <p class="text-slate-400 text-xs font-light leading-relaxed">
+                            An advanced user behavioral security analytics layer built on Python and Flask. Engineered to track anomalies across user access footprints by monitoring custom identity metrics, authentication request patterns, and visual tracking of potential credential exploitation vectors.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-1 text-[10px] font-mono text-slate-500 mt-6 pt-3 border-t border-cyberBorder/40">
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Python</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Flask</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Auth Logs</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col h-full bg-cyberCard/30 border border-cyberBorder p-5 rounded-xl transition duration-300 glowing-border">
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="p-2 border border-slate-700 bg-slate-800/20 rounded-lg text-slate-400 text-xs"><i class="fa-solid fa-gauge-high"></i></div>
+                            <span class="text-[9px] font-mono font-semibold text-slate-500 border border-cyberBorder px-1.5 py-0.5 rounded uppercase tracking-wider">System Ops</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2 tracking-tight">SOC Monitoring Dashboard</h3>
+                        <p class="text-slate-400 text-xs font-light leading-relaxed">
+                            Developing a real-time monitoring web application using Python, Flask, and core system-level libraries. Tracks performance parameters, implements a custom metric weight scoring engine, and generates dynamic updates designed to expand toward active log collection and risk profiling.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-1 text-[10px] font-mono text-slate-500 mt-6 pt-3 border-t border-cyberBorder/40">
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Chart.js</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Risk Metrics</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">SysLib</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col h-full bg-cyberCard/30 border border-cyberBorder p-5 rounded-xl transition duration-300 glowing-border">
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="p-2 border border-accentCyan/20 bg-accentCyan/5 rounded-lg text-accentCyan text-xs"><i class="fa-solid fa-car"></i></div>
+                            <span class="text-[9px] font-mono font-semibold text-accentCyan border border-accentCyan/20 px-1.5 py-0.5 rounded uppercase tracking-wider">Smart Mobility</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2 tracking-tight">AutoMate Mobile App</h3>
+                        <p class="text-slate-400 text-xs font-light leading-relaxed">
+                            A localized peer-to-peer communication solution built within Android Studio. Enforced complete driver privacy boundaries by isolating individual identity parameters while utilizing specialized QR engines, sandboxed local arrays, and event notification distribution templates.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-1 text-[10px] font-mono text-slate-500 mt-6 pt-3 border-t border-cyberBorder/40">
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Java</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Android Studio</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">QR Engine</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col h-full bg-cyberCard/30 border border-cyberBorder p-5 rounded-xl transition duration-300 glowing-border">
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="p-2 border border-slate-700 bg-slate-800/20 rounded-lg text-slate-400 text-xs"><i class="fa-solid fa-graduation-cap"></i></div>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2 tracking-tight">CourseMint Application</h3>
+                        <p class="text-slate-400 text-xs font-light leading-relaxed">
+                            Designed a student guidance mobile tool mapping secondary education pathways to specialized career targets. Implemented structural user authentication patterns, unified dashboard state sync layouts, and real-time backend verification fields via Firebase.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-1 text-[10px] font-mono text-slate-500 mt-6 pt-3 border-t border-cyberBorder/40">
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Firebase Auth</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Realtime DB</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">UI/UX</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col h-full bg-cyberCard/30 border border-cyberBorder p-5 rounded-xl transition duration-300 glowing-border">
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="p-2 border border-slate-700 bg-slate-800/20 rounded-lg text-slate-400 text-xs"><i class="fa-solid fa-clock"></i></div>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2 tracking-tight">Midnight Finder</h3>
+                        <p class="text-slate-400 text-xs font-light leading-relaxed">
+                            An astronomical metric utility parsing dynamic astronomical variables via public REST endpoints. Executes algorithmic chronological calculations to extract exact midnight horizons synchronized alongside changing geographical matrix sensors.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-1 text-[10px] font-mono text-slate-500 mt-6 pt-3 border-t border-cyberBorder/40">
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">REST APIs</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Geolocation</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Themes</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col h-full bg-cyberCard/30 border border-cyberBorder p-5 rounded-xl transition duration-300 glowing-border">
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="p-2 border border-slate-700 bg-slate-800/20 rounded-lg text-slate-400 text-xs"><i class="fa-solid fa-bus"></i></div>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2 tracking-tight">Bus Seat Allocator</h3>
+                        <p class="text-slate-400 text-xs font-light leading-relaxed">
+                            An execution script applying clean conditional logic matrix arrays to handle complex multi-tier group sorting rules. Built inside C++ utilizing structural loops, function handling protocols, and validation boundaries for user data ingestion.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-1 text-[10px] font-mono text-slate-500 mt-6 pt-3 border-t border-cyberBorder/40">
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">C++ Core</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Sorting Logic</span>
+                        <span class="px-1.5 py-0.5 border border-cyberBorder bg-cyberDark rounded">Console Sys</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-28 border-t border-cyberBorder/60 scroll-mt-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-xs font-bold tracking-widest text-slate-600 uppercase mb-16 border-l border-accentViolet/40 pl-4">05 // Core Technical Index</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 font-mono text-xs">
+                <div>
+                    <h3 class="text-white uppercase tracking-wider font-semibold mb-6 text-sm text-accentViolet">&lt;Identity Infrastructure /&gt;</h3>
+                    <ul class="space-y-2 border-l border-cyberBorder pl-4 text-slate-400">
+                        <li class="text-white font-medium">IAM & Identity Security Concept</li>
+                        <li>Privileged Access Management (<span class="text-slate-300">PAM / CyberArk</span>)</li>
+                        <li>Single Sign-On (<span class="text-slate-300">SSO / Ping Identity</span>)</li>
+                        <li>Identity Governance & Admin (<span class="text-slate-300">IGA / SailPoint</span>)</li>
+                        <li>Active Directory Protection (<span class="text-slate-300">Silverfort</span>)</li>
+                        <li>Access Orchestration & Risk (<span class="text-slate-300">Pathlock</span>)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white uppercase tracking-wider font-semibold mb-6 text-sm text-accentViolet">&lt;Programming & Repos /&gt;</h3>
+                    <ul class="space-y-2 border-l border-cyberBorder pl-4 text-slate-400">
+                        <li>Python & Flask API</li>
+                        <li>Java (Android Development)</li>
+                        <li>C++ Logic & Sorting Matrices</li>
+                        <li>MySQL / MariaDB / MongoDB</li>
+                        <li>Microsoft Excel Data Auditing</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white uppercase tracking-wider font-semibold mb-6 text-sm text-accentViolet">&lt;System Layout & Soft Stack /&gt;</h3>
+                    <ul class="space-y-2 border-l border-cyberBorder pl-4 text-slate-400">
+                        <li>Figma UI/UX Prototyping</li>
+                        <li>Adobe Creative Suite Integration</li>
+                        <li>Technical Business Communication</li>
+                        <li>Cross-Team Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-28 border-t border-cyberBorder/60 bg-slate-950/20 scroll-mt-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-xs font-bold tracking-widest text-slate-600 uppercase mb-16 border-l border-accentViolet/40 pl-4">06 // Academic Foundations</h2>
+            <div class="space-y-6">
+                
+                <div class="border border-cyberBorder bg-slate-950/40 p-6 rounded-xl hover:border-accentViolet/20 transition">
+                    <div class="flex flex-col sm:flex-row justify-between sm:items-center gap-2 mb-2">
+                        <h3 class="text-base font-bold text-white tracking-tight">Postgraduate Diploma in Information Technology (Business)</h3>
+                        <span class="text-xs font-mono text-accentViolet">September 2024 &mdash; November 2025</span>
+                    </div>
+                    <p class="text-sm text-slate-400 mb-2">Heriot-Watt University Dubai</p>
+                    <p class="text-xs text-slate-500 font-light">Core Framework: Scalable Database Implementations (MySQL, MariaDB), Corporate Continuity Management Strategies, Competitive Edge Logic, Android UI/UX Design</p>
+                </div>
+
+                <div class="border border-cyberBorder bg-slate-950/40 p-6 rounded-xl hover:border-accentViolet/20 transition">
+                    <div class="flex flex-col sm:flex-row justify-between sm:items-center gap-2 mb-2">
+                        <h3 class="text-base font-bold text-white tracking-tight">Bachelor of Science in Computer Science (Cybersecurity)</h3>
+                        <span class="text-xs font-mono text-accentViolet">September 2020 &mdash; March 2024</span>
+                    </div>
+                    <p class="text-sm text-slate-400 mb-2">University of Wollongong in Dubai</p>
+                    <p class="text-xs text-slate-500 font-light">Core Framework: Multi-Layer Security Principles, Distributed Systems Software Development, Human-Computer Interaction Frameworks, MongoDB Engineering</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-cyberBorder/40 py-12 text-center text-xs font-mono text-slate-600">
+        <p class="mb-1 text-slate-400">Muhammad Ibrahim Jafar &bull; Technical Portfolio</p>
+        <p>&copy; 2026 Engine Frame. Systems Distributed Architecture.</p>
+    </footer>
+
+</body>
+</html>
